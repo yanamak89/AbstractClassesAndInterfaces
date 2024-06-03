@@ -1,6 +1,7 @@
 namespace Task5;
 
-public class DocumentPart
+// Abstract class for all parts of the document
+public abstract class DocumentPart
 {
-    
+    public abstract void Render();
 }
